@@ -1,0 +1,218 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    background-color: #fbfbfb;
+    overflow-x: hidden;
+    font-size: 17px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .prototype-card{
+    margin: 8px 0px;
+    padding: 8px 36px;
+    font-size:14px;
+    font-family: sans-serif;
+    color:#ffffff;
+    
+  }
+
+  .prototype-card h1{
+    font-size: 30.002px;
+    font-family: sans-serif;
+  }
+
+  .prototype-card p{
+    font-size: 14.994px;
+    font-family: sans-serif;
+    margin:3px 0px 0px;
+  }
+
+  .prototype-cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+  }
+  .prototype-cards-section .prototype-card {
+    background-color: #cc151575;
+    height: 700px;
+    margin: 177px 0px 0px;
+    padding: 20px 0px 0px;
+    width: 500px;
+    text-align: center;
+    border: 1px solid rgba(28, 31, 62, 0.09);
+    position: relative;
+    box-shadow: 0 6px 3px rgba(36, 25, 171, 0.11);
+    border-radius: 4px;
+    opacity: 80%;
+  }
+  .prototype-cards-section .prototype-card:hover {
+    transition: all 0.1s ease;
+    background: #99a0c4;
+    border: 1px solid #7a85d6;
+  }
+  .prototype-cards-section .prototype-card:active {
+    background-color: #e8ecff;
+  }
+
+.form-group-email{
+  margin: 8px 0px;
+  padding: 8px 36px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff;
+
+
+}
+
+.form-group-stg-nm{
+  margin: 8px 0px;
+  padding: 8px 36px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff;
+
+}
+.btn btn-default{
+  margin: 8px 0px;
+  padding: 8px 36px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff;
+}
+.upload-mus{
+  margin: 8px 0px;
+  padding: 8px 36px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff;
+}
+.upload-pic{
+  margin: 8px 0px;
+  padding: 8px 36px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff; 
+}
+.form-group-smlinks{
+  margin: 8px 0px;
+  padding: 8px 36px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff;
+
+}
+.form-group-bio{
+  margin: 8px 0px;
+  padding: 8px 36px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff;
+}
+.form-group-email{
+  margin: 8px 0px;
+  padding: 8px 36px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff;
+}
+  
+#email{
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 200px;
+  margin-top: -20px;
+}
+  
+  label{
+  align-items: left;
+  margin: auto;
+  padding: 3px;
+  font-size:14px;
+  font-family: sans-serif;
+  color:#ffffff;
+  display: flex;
+  
+  }
+  #name{
+    margin-left: 204px;
+    margin-top: -20px;
+  }
+  
+  #bio{
+    margin-left: 208px;
+    margin-top: -20px;
+  }
+  #smlinks{
+    margin-left: 207px;
+    margin-top: -20px;
+  }
+
+  .upload-pic input{
+    align-items: center;
+    margin: auto;
+  }
+ 
+  .cta {
+    margin-top: 20px;
+    box-shadow: 0 11px 20px rgba(40, 18, 197, 0.17);
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    border-radius: 32px;
+    height:fit-content;
+    width: fit-content;
+    background: linear-gradient(162deg, #000205, #f10f0f);
+    border: none;
+  }
+  .upload-pic myfile{
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 0 11px 20px rgba(40, 18, 197, 0.17);
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    border-radius: 32px;
+    height:fit-content;
+    width: fit-content;
+    background: linear-gradient(162deg, #000205, #f10f0f);
+    border: none;
+  }
+
+  .upload-picture {
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 0 11px 20px rgba(40, 18, 197, 0.17);
+    font-weight: bold;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    border-radius: 32px;
+    height:fit-content;
+    width: fit-content;
+    background: linear-gradient(162deg, #000205, #f10f0f);
+    border: none;
+  }
+ 
+  
+  .upload-music {
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 0 11px 20px rgba(40, 18, 197, 0.17);
+    font-weight: bold;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    border-radius: 32px;
+    height:fit-content;
+    width: fit-content;
+    background: linear-gradient(162deg, #000205, #f10f0f);
+    border: none;
+  }
+ 
